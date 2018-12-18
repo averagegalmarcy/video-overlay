@@ -1,0 +1,48 @@
+body {
+  font-family: 'Andada', serif;
+  font-size: 50pt;
+  color:rgb(255, 255, 255);
+  /* -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: .1pt; */
+}
+section {
+  text-align: center;
+}
+.wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.video-wrap {
+  position: fixed;
+  left: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  object-fit: fill;
+  opacity: .3;
+  z-index: 1;
+}
+.overlay {
+  z-index: -99;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  left: 0%; 
+  background-color: rgba(0,0,0,.7);
+  z-index: -1;
+  opacity: .5;
+}
+.landing-text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 30pt;
+  margin-top: 100px;
+  margin-right: 35%; 
+  text-shadow: 3pt, 3pt, 3pt black;
+  z-index: 99;
+  border: solid 4pt white;
+}
