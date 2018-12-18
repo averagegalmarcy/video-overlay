@@ -2,8 +2,6 @@ body {
   font-family: 'Andada', serif;
   font-size: 50pt;
   color:rgb(255, 255, 255);
-  /* -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: .1pt; */
 }
 section {
   text-align: center;
@@ -26,14 +24,12 @@ section {
   z-index: 1;
 }
 .overlay {
-  z-index: -99;
   height: 100%;
   width: 100%;
   top: 0%;
   left: 0%; 
   background-color: rgba(0,0,0,.7);
-  z-index: -1;
-  opacity: .5;
+  opacity: .6;
 }
 .landing-text {
   text-align: center;
